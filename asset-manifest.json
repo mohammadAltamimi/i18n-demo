@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/i18n-demo/static/css/main.dcfb0e20.chunk.css",
+    "main.js": "/i18n-demo/static/js/main.108b6541.chunk.js",
+    "main.js.map": "/i18n-demo/static/js/main.108b6541.chunk.js.map",
+    "runtime-main.js": "/i18n-demo/static/js/runtime-main.a26cb763.js",
+    "runtime-main.js.map": "/i18n-demo/static/js/runtime-main.a26cb763.js.map",
+    "static/js/2.16ae313e.chunk.js": "/i18n-demo/static/js/2.16ae313e.chunk.js",
+    "static/js/2.16ae313e.chunk.js.map": "/i18n-demo/static/js/2.16ae313e.chunk.js.map",
+    "index.html": "/i18n-demo/index.html",
+    "precache-manifest.6f983fa3d9a246347ea0c6db168ac062.js": "/i18n-demo/precache-manifest.6f983fa3d9a246347ea0c6db168ac062.js",
+    "service-worker.js": "/i18n-demo/service-worker.js",
+    "static/css/main.dcfb0e20.chunk.css.map": "/i18n-demo/static/css/main.dcfb0e20.chunk.css.map",
+    "static/js/2.16ae313e.chunk.js.LICENSE.txt": "/i18n-demo/static/js/2.16ae313e.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/i18n-demo/static/media/getFetch.5e98861f.cjs"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a26cb763.js",
+    "static/js/2.16ae313e.chunk.js",
+    "static/css/main.dcfb0e20.chunk.css",
+    "static/js/main.108b6541.chunk.js"
+  ]
+}
