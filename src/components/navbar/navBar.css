@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* direction: rtl; */
+  }
+
+  .ar{
+      direction: rtl;
+  }
+  .en{
+      direction: ltr;
+  }
+  .navbar {
+    /* direction: rtl; */
+    background-color: white;
+    border-bottom: 1px solid;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    /* margin-bottom: 100px; */
+
+    /* padding: 10px; */
+  }
+  
+  .container {
+    /* background-color: mediumblue; */
+    width: 85%;
+    margin: auto;
+    padding: 10px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    position: relative;
+  }
+  .logo {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .list {
+    list-style: none;
+    text-align: center;
+  }
+  .list-item {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .list-item:hover {
+    color: tomato;
+    cursor: pointer;
+  }
+  
+  .navbar input {
+    display: none;
+  }
+  .navbar input,
+  .navbar label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .navbar label {
+    display: none;
+  }
+
+
+
+
+
+  @media screen and (min-width: 321px) and (max-width: 550px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 100%;
+      background-color: rgb(134, 126, 126);
+    }
+  
+    .list-item {
+      /* background-color: midnightblue; */
+  
+      display: block;
+      text-align: center;
+    }
+  
+    .logo {
+      text-align: start;
+      margin-top: 5px;
+      padding: 5px;
+      width: 75%;
+      /* background-color: midnightblue; */
+      margin-left: 20%;
+    }
+  
+    .navbar input,
+    .navbar label {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      /* background-color: midnightblue; */
+    }
+  
+    .navbar label {
+      display: block;
+      width: 15px;
+      height: 15px;
+      /* background-color: midnightblue; */
+      background: url("https://static.vecteezy.com/system/resources/thumbnails/000/568/224/small/vector60-2338-01.jpg")
+        no-repeat;
+      padding: 10px;
+      background-size: cover;
+      cursor: pointer;
+    }
+    .navbar .list {
+      display: none;
+    }
+    .navbar input:checked ~ label {
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUWblUPVVF-b27068p9ZLvYVjXZqrrCl2IoemoLolEuhWvS_F7&usqp=CAU")
+        no-repeat;
+      padding: 10px;
+      background-size: cover;
+    }
+  
+    .navbar input:checked ~ .list {
+      display: block;
+    }
+  
+    .home-btn {
+      width: 25%;
+    }
+  }

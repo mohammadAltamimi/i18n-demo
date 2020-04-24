@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "logo": "Ultra Profile",
+    "Home": "Home",
+    "Profile": "Profile",
+    "About": "About",
+    "Content": "Content",
+    "Try": "Try"
+  },
+  "data": [
+    "Apple",
+    "Ball",
+    "Cat",
+    "Queen",
+    "Paddy",
+    "Orange",
+    "Lemon",
+    "Kite",
+    "Jug",
+    "Ink",
+    "Horse",
+    "Gorilla",
+    "Fruits",
+    "Elephant",
+    "Dog",
+    "Rose",
+    "Street",
+    "Tuesday",
+    "Umbrella",
+    "Vanilla",
+    "Wax",
+    "Xerox",
+    "Yarn",
+    "Zebra"
+  ]
+}
